@@ -1,10 +1,10 @@
-import './App.css';
-
+import "./App.css";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='text-red-500 text-5xl'> Hello world! </h1>
+    <div className="App font-opensans">
+      <HomePage />
     </div>
   );
 }
